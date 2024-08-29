@@ -80,4 +80,11 @@
   .hover-slide-in:hover {
     animation: slide-in 0.8s forwards ease-in-out;
   }
+
+  /* Hide MobileNav component in desktop and tablet views */
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+}
 }
