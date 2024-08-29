@@ -16,7 +16,8 @@ function MobileNav() {
       {/* Hamburger menu button for mobile */}
       <Button variant="ghost" size="icon" onClick={handleMenuClick}>
         <MenuIcon className="h-6 w-6" />
-      </Button>
+      </Button>{" "}
+      {/* Add the closing tag */}
       {/* Nav elements */}
       {menuOpen && (
         <nav className="absolute right-0 mt-2 bg-white shadow-lg rounded-md">

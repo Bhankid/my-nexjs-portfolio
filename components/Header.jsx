@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { MenuIcon } from "@/components/ui/icons";
+import MobileNav from "./MobileNav";
 
 export function Header() {
   return (
@@ -52,10 +53,8 @@ export function Header() {
           </Link>
         </nav>
 
-        {/* Hamburger menu button for mobile */}
-        <Button variant="ghost" size="icon" className="md:hidden">
-          <MenuIcon className="h-6 w-6" />
-        </Button>
+        {/* Mobile navigation */}
+        <MobileNav />
       </div>
     </header>
   );

@@ -13,18 +13,24 @@ export function ContactSection() {
             Get in touch for collaboration or job opportunities.
           </p>
         </div>
-        <form className="max-w-2xl mx-auto p-8 bg-white rounded-md shadow-md">
+        <form
+          className="max-w-2xl mx-auto p-8 bg-white rounded-md shadow-md"
+          action="https://formspree.io/f/xdknbpov"
+          method="POST"
+        >
           <input
-            type="text"
+            type="text" name="name"
             placeholder="Your Name"
             className="w-full p-4 pl-12 text-lg text-gray-700 border border-input rounded-md focus:outline-none focus:ring-1 focus:ring-accent"
           />
           <input
             type="email"
+            name="email"
             placeholder="Your Email"
             className="w-full p-4 pl-12 text-lg text-gray-700 border border-input rounded-md focus:outline-none focus:ring-1 focus:ring-accent"
           />
           <textarea
+            name="message"
             placeholder="Your Message"
             className="w-full p-4 pl-12 text-lg text-gray-700 border border-input rounded-md focus:outline-none focus:ring-1 focus:ring-accent"
             rows="4"
