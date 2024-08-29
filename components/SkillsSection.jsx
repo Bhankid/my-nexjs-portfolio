@@ -1,4 +1,3 @@
-
 import {
   CloudIcon,
   CodepenIcon,
@@ -14,9 +13,9 @@ import {
 
 export function SkillsSection() {
   return (
-    <section id="skills" className="w-full py-10 md:py-20 lg:py-3 bg-muted">
-      <div className="container grid gap-12 px-4 md:px-6">
-        <div className="space-y-2 text-center">
+    <section id="skills" className="w-full py-10 md:py-20 lg:py-24 bg-muted">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             My Skills
           </h2>
@@ -24,8 +23,8 @@ export function SkillsSection() {
             Explore the technologies I work with.
           </p>
         </div>
-        <div className="flex justify-center">
-          <div>
+        <div className="flex justify-center my-8">
+          <div className="flex space-x-4">
             <ambientLight />
             <pointLight position={[10, 10, 10]} />
             <mesh>
@@ -42,7 +41,7 @@ export function SkillsSection() {
             </mesh>
           </div>
         </div>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           <SkillItem
             icon={<CodepenIcon className="h-12 w-12" />}
             name="React"

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image"; // Import Image component
+import Image from "next/image"; 
 
 export function ProjectsSection() {
   const projects = [
@@ -57,11 +57,8 @@ export function ProjectsSection() {
   ];
 
   return (
-    <section
-      id="projects"
-      className="w-full py-12 md:py-24 lg:py-32 ml-12 md:ml-16 lg:ml-20"
-    >
-      <div className="container grid gap-12 px-4 md:px-6">
+    <section id="projects" className="w-full py-12 md:py-24 lg:py-32">
+      <div className="container mx-auto grid gap-12 px-4 md:px-6">
         <div className="space-y-2 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             My Projects
