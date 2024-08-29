@@ -52,9 +52,7 @@ export function Header() {
             Contact
           </Link>
         </nav>
-
-        {/* Mobile navigation */}
-        <MobileNav />
+        
       </div>
     </header>
   );
