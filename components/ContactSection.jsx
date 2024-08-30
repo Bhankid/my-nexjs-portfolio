@@ -5,6 +5,7 @@ import {
   faMapMarkerAlt,
   faLanguage,
 } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope as faEnvelopeSolid } from "@fortawesome/free-solid-svg-icons/faEnvelope";
 
 export function ContactSection() {
   return (
@@ -64,9 +65,7 @@ export function ContactSection() {
               }}
               className="text-gray-700 mr-2"
             />
-            <span className="text-lg text-gray-700">
-              alfredfianyo50@gmail.com
-            </span>
+            <span className="text-lg text-gray-700">alfredfianyo50@gmail.com</span>
           </div>
           <div className="flex items-center mr-6 mb-4">
             <FontAwesomeIcon
@@ -102,7 +101,9 @@ export function ContactSection() {
               }}
               className="text-gray-700 mr-2"
             />
-            <span className="text-lg text-gray-700">English, Ewe, Twi</span>
+            <span className="text-lg text-gray-700">
+              English, Ewe, Twi
+            </span>
           </div>
         </div>
       </div>
