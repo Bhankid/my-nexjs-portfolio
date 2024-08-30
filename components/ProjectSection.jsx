@@ -5,8 +5,8 @@ export function ProjectsSection() {
   const projects = [
     {
       name: "Project 1",
-      description: "A web application for managing tasks and projects.",
-      image: "/project1-placeholder.png", // Placeholder image
+      description: "Farm-Trade. An E-commerce platform for farmers and trader using next.js and tailwind css.",
+      image: "/farm-trade.jpeg", 
     },
     {
       name: "Project 2",
@@ -16,43 +16,43 @@ export function ProjectsSection() {
     {
       name: "Project 3",
       description:
-        "A mobile-first web application for tracking personal finances.",
-      image: "/project-3 img.jpeg",
+        "A responsive hotel website with a modern design.",
+      image: "/hotel.jpeg",
     },
     {
       name: "Project 4",
       description:
-        "A social media platform for connecting with friends and sharing updates.",
-      image: "/project-4 img.webp",
+        "An inventory management system with advance features using next.js and tailwind css.",
+      image: "/inventory.jpeg",
     },
     {
       name: "Project 5",
       description:
-        "A real-time chat application with support for multiple chat rooms.",
-      image: "/project5-placeholder.png",
+        "A movie suggestion site using HTML, CSS, JavaScript and an external API.",
+      image: "/movie.jpeg",
     },
     {
       name: "Project 6",
-      description: "A portfolio website showcasing photography and artwork.",
-      image: "/project6-placeholder.png",
+      description: "A portfolio website showcasing my skills in HTML5, CSS3, and JavaScript.",
+      image: "/portfolio-site.png",
     },
     {
       name: "Project 7",
       description:
-        "A weather forecasting app providing real-time weather updates.",
-      image: "/project7-placeholder.png",
+        "A currency converter using JavaFx and an external API showcasing my skills in desktop dev.",
+      image: "/currency.jpeg",
     },
     {
       name: "Project 8",
       description:
-        "A blogging platform with markdown support and user authentication.",
-      image: "/project8-placeholder.png",
+        "A note taking app using JavaFx and an external API with advance | AI features.",
+      image: "/note.jpeg",
     },
     {
       name: "Project 9",
       description:
-        "A blogging platform with markdown support and user authentication.",
-      image: "/project8-placeholder.png",
+        "A math quiz app using JavaFx for desktop.",
+      image: "/math-quiz.png",
     },
   ];
 

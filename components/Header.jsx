@@ -24,7 +24,7 @@ export function Header() {
         {/* Navigation links on the right */}
         <nav className="hidden md:flex flex-1 justify-end space-x-8">
           <Link
-            href="#"
+            href="#home"
             className="text-sm font-medium hover:underline hover-slide-in"
             prefetch={false}
           >
