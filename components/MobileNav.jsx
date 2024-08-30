@@ -30,27 +30,33 @@ function MobileNav() {
         <nav className="absolute top-0 left-0 w-full h-screen bg-white shadow-lg rounded-t-md">
           <ul className="flex flex-col p-4">
             <li className="py-2">
-              <Link href="#" className="text-sm font-medium">
+              <Link href="/home" className="text-sm font-medium">
                 Home
               </Link>
             </li>
             <li className="py-2">
-              <Link href="#projects" className="text-sm font-medium">
+              <Link href="/projects" className="text-sm font-medium">
                 Projects
               </Link>
             </li>
             <li className="py-2">
-              <Link href="#skills" className="text-sm font-medium">
+              <Link href="/skills" className="text-sm font-medium">
                 Skills
               </Link>
             </li>
             <li className="py-2">
-              <Link href="#contact" className="text-sm font-medium">
+              <Link href="/contact" className="text-sm font-medium">
                 Contact
               </Link>
             </li>
           </ul>
         </nav>
+      )}
+      {/* Close button */}
+      {menuOpen && (
+        <Button variant="ghost" size="icon" onClick={handleCloseClick}>
+          <CloseIcon className="h-6 w-6" />
+        </Button>
       )}
     </div>
   );
