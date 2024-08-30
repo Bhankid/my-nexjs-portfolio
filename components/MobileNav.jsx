@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { MenuIcon } from "@/components/ui/icons";
+import { MenuIcon, CloseIcon } from "@/components/ui/icons";
 import Link from "next/link";
 
 function MobileNav() {
@@ -11,11 +11,19 @@ function MobileNav() {
     setMenuOpen(!menuOpen);
   };
 
+  const handleCloseClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <div className="mobile-nav">
       {/* Hamburger menu button for mobile */}
       <Button variant="ghost" size="icon" onClick={handleMenuClick}>
-        <MenuIcon className="h-6 w-6" />
+        {menuOpen ? (
+          <CloseIcon className="h-6 w-6" />
+        ) : (
+          <MenuIcon className="h-6 w-6" />
+        )}
       </Button>
       {/* Nav elements */}
       {menuOpen && (

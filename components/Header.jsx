@@ -51,13 +51,6 @@ export function Header() {
           >
             Contact
           </Link>
-          <Link
-            href="#contact"
-            className="text-sm font-medium hover:underline hover-slide-in"
-            prefetch={false}
-          >
-            About
-          </Link>
         </nav>
 
         {/* Mobile navigation */}

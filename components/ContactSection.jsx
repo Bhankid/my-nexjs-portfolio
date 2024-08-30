@@ -5,7 +5,6 @@ import {
   faMapMarkerAlt,
   faLanguage,
 } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope as faEnvelopeSolid } from "@fortawesome/free-solid-svg-icons/faEnvelope";
 
 export function ContactSection() {
   return (
@@ -57,53 +56,53 @@ export function ContactSection() {
         <div className="flex flex-wrap justify-center mt-6">
           <div className="flex items-center mr-6 mb-4">
             <FontAwesomeIcon
-              icon={faEnvelopeSolid}
-              size="sm"
+              icon={faEnvelope}
+              size="xs"
               style={{
                 boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
-                borderRadius: "50%",
-              }}
-              className="text-gray-700 mr-2"
-            />
-            <span className="text-lg text-gray-700">example@email.com</span>
-          </div>
-          <div className="flex items-center mr-6 mb-4">
-            <FontAwesomeIcon
-              icon={faPhone}
-              size="sm"
-              style={{
-                boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
-                borderRadius: "50%",
-              }}
-              className="text-gray-700 mr-2"
-            />
-            <span className="text-lg text-gray-700">+1 234 567 890</span>
-          </div>
-          <div className="flex items-center mr-6 mb-4">
-            <FontAwesomeIcon
-              icon={faMapMarkerAlt}
-              size="sm"
-              style={{
-                boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
-                borderRadius: "50%",
-              }}
-              className="text-gray-700 mr-2"
-            />
-            <span className="text-lg text-gray-700">New York, USA</span>
-          </div>
-          <div className="flex items-center mr-6 mb-4">
-            <FontAwesomeIcon
-              icon={faLanguage}
-              size="sm"
-              style={{
-                boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
-                borderRadius: "50%",
+                borderRadius: "40%",
               }}
               className="text-gray-700 mr-2"
             />
             <span className="text-lg text-gray-700">
-              English, Spanish, French
+              alfredfianyo50@gmail.com
             </span>
+          </div>
+          <div className="flex items-center mr-6 mb-4">
+            <FontAwesomeIcon
+              icon={faPhone}
+              size="xs"
+              style={{
+                boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+                borderRadius: "40%",
+              }}
+              className="text-gray-700 mr-2"
+            />
+            <span className="text-lg text-gray-700">+233554572904</span>
+          </div>
+          <div className="flex items-center mr-6 mb-4">
+            <FontAwesomeIcon
+              icon={faMapMarkerAlt}
+              size="xs"
+              style={{
+                boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+                borderRadius: "40%",
+              }}
+              className="text-gray-700 mr-2"
+            />
+            <span className="text-lg text-gray-700">Accra, Ghana</span>
+          </div>
+          <div className="flex items-center mr-6 mb-4">
+            <FontAwesomeIcon
+              icon={faLanguage}
+              size="xs"
+              style={{
+                boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+                borderRadius: "40%",
+              }}
+              className="text-gray-700 mr-2"
+            />
+            <span className="text-lg text-gray-700">English, Ewe, Twi</span>
           </div>
         </div>
       </div>

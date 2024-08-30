@@ -81,15 +81,8 @@
     animation: slide-in 0.8s forwards ease-in-out;
   }
 
-  /* Hide MobileNav component in desktop and tablet views */
-@media (min-width: 768px) {
-  .mobile-nav {
-    display: none;
-  }
-}
-
-.glassmorphic {
-  background-color: rgba(255, 255, 255, 0.2);
+  .glassmorphic {
+  background-color: rgba(37, 35, 35, 0.2);
   backdrop-filter: blur(10px);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -118,4 +111,12 @@
 .glassmorphic a:hover {
   color: #666;
 }
+
+  /* Hide MobileNav component in desktop and tablet views */
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
 }
