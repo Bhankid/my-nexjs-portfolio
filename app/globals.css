@@ -87,4 +87,35 @@
     display: none;
   }
 }
+
+.glassmorphic {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.glassmorphic ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.glassmorphic li {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glassmorphic li:last-child {
+  border-bottom: none;
+}
+
+.glassmorphic a {
+  text-decoration: none;
+  color: #333;
+}
+
+.glassmorphic a:hover {
+  color: #666;
+}
 }

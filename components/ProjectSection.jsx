@@ -11,19 +11,19 @@ export function ProjectsSection() {
     {
       name: "Project 2",
       description: "A responsive e-commerce website with a modern design.",
-      image: "/project2-placeholder.png",
+      image: "/project-2 img",
     },
     {
       name: "Project 3",
       description:
         "A mobile-first web application for tracking personal finances.",
-      image: "/project3-placeholder.png",
+      image: "/project-3 img.jpeg",
     },
     {
       name: "Project 4",
       description:
         "A social media platform for connecting with friends and sharing updates.",
-      image: "/project4-placeholder.png",
+      image: "/project-4 img.webp",
     },
     {
       name: "Project 5",

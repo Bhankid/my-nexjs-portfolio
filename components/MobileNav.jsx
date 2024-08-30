@@ -16,11 +16,10 @@ function MobileNav() {
       {/* Hamburger menu button for mobile */}
       <Button variant="ghost" size="icon" onClick={handleMenuClick}>
         <MenuIcon className="h-6 w-6" />
-      </Button>{" "}
-      {/* Add the closing tag */}
+      </Button>
       {/* Nav elements */}
       {menuOpen && (
-        <nav className="absolute right-0 mt-2 bg-white shadow-lg rounded-md">
+        <nav className="absolute top-0 left-0 w-full h-screen bg-white shadow-lg rounded-t-md">
           <ul className="flex flex-col p-4">
             <li className="py-2">
               <Link href="#" className="text-sm font-medium">

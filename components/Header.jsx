@@ -12,7 +12,7 @@ export function Header() {
         <Link href="#" className="flex items-center gap-2" prefetch={false}>
           <div className="relative h-8 w-8 rounded-full bg-muted">
             <Image
-              src="/placeholder-user.jpg"
+              src="/user-icon.png"
               alt="Alfred Fianyo"
               fill
               className="rounded-full object-cover"
@@ -50,6 +50,13 @@ export function Header() {
             prefetch={false}
           >
             Contact
+          </Link>
+          <Link
+            href="#contact"
+            className="text-sm font-medium hover:underline hover-slide-in"
+            prefetch={false}
+          >
+            About
           </Link>
         </nav>
 

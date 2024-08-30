@@ -16,7 +16,7 @@ export function HeroSection() {
               <pointLight position={[10, 10, 10]} />
               <mesh>
                 <boxGeometry args={[2, 2, 2]} />
-                <meshStandardMaterial color="#55efc4" />
+                <meshStandardMaterial color="#EF2222" />
               </mesh>
             </div>
           </div>

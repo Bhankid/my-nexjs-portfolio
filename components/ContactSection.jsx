@@ -1,3 +1,12 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faPhone,
+  faMapMarkerAlt,
+  faLanguage,
+} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope as faEnvelopeSolid } from "@fortawesome/free-solid-svg-icons/faEnvelope";
+
 export function ContactSection() {
   return (
     <section
@@ -19,7 +28,8 @@ export function ContactSection() {
           method="POST"
         >
           <input
-            type="text" name="name"
+            type="text"
+            name="name"
             placeholder="Your Name"
             className="w-full p-4 pl-12 text-lg text-gray-700 border border-input rounded-md focus:outline-none focus:ring-1 focus:ring-accent"
           />
@@ -44,6 +54,58 @@ export function ContactSection() {
             </button>
           </div>
         </form>
+        <div className="flex flex-wrap justify-center mt-6">
+          <div className="flex items-center mr-6 mb-4">
+            <FontAwesomeIcon
+              icon={faEnvelopeSolid}
+              size="sm"
+              style={{
+                boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+                borderRadius: "50%",
+              }}
+              className="text-gray-700 mr-2"
+            />
+            <span className="text-lg text-gray-700">example@email.com</span>
+          </div>
+          <div className="flex items-center mr-6 mb-4">
+            <FontAwesomeIcon
+              icon={faPhone}
+              size="sm"
+              style={{
+                boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+                borderRadius: "50%",
+              }}
+              className="text-gray-700 mr-2"
+            />
+            <span className="text-lg text-gray-700">+1 234 567 890</span>
+          </div>
+          <div className="flex items-center mr-6 mb-4">
+            <FontAwesomeIcon
+              icon={faMapMarkerAlt}
+              size="sm"
+              style={{
+                boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+                borderRadius: "50%",
+              }}
+              className="text-gray-700 mr-2"
+            />
+            <span className="text-lg text-gray-700">New York, USA</span>
+          </div>
+          <div className="flex items-center mr-6 mb-4">
+            <FontAwesomeIcon
+              icon={faLanguage}
+              size="sm"
+              style={{
+                boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+                borderRadius: "50%",
+              }}
+              className="text-gray-700 mr-2"
+            />
+            <span className="text-lg text-gray-700">
+              English, Spanish, French
+            </span>
+          </div>
+        </div>
       </div>
     </section>
   );
