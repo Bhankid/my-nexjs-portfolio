@@ -14,7 +14,10 @@ function MobileNav() {
   }, []);
 
   const handleMenuClick = () => {
-    setMenuOpen(!menuOpen);
+    setMenuOpen((prev) => !prev); // Toggle the menu state
+    if (menuOpen) {
+      focusableElements[0].focus();
+    }
   };
 
   const handleCloseClick = () => {
@@ -54,22 +57,38 @@ function MobileNav() {
         >
           <ul className="flex flex-col p-4">
             <li className="py-2">
-              <Link href="#" className="text-sm font-medium">
+              <Link
+                href="#"
+                className="text-sm font-medium"
+                onClick={handleCloseClick}
+              >
                 Home
               </Link>
             </li>
             <li className="py-2">
-              <Link href="#projects" className="text-sm font-medium">
+              <Link
+                href="#projects"
+                className="text-sm font-medium"
+                onClick={handleCloseClick}
+              >
                 Projects
               </Link>
             </li>
             <li className="py-2">
-              <Link href="#skills" className="text-sm font-medium">
+              <Link
+                href="#skills"
+                className="text-sm font-medium"
+                onClick={handleCloseClick}
+              >
                 Skills
               </Link>
             </li>
             <li className="py-2">
-              <Link href="#contact" className="text-sm font-medium">
+              <Link
+                href="#contact"
+                className="text-sm font-medium"
+                onClick={handleCloseClick}
+              >
                 Contact
               </Link>
             </li>
