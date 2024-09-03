@@ -65,7 +65,7 @@ export function ContactSection() {
               }}
               className="text-gray-700 mr-2"
             />
-            <span className="text-lg text-gray-700">alfredfianyo50@gmail.com</span>
+            <span className="text-sm text-gray-700">alfredfianyo50@gmail.com</span>
           </div>
           <div className="flex items-center mr-6 mb-4">
             <FontAwesomeIcon
@@ -77,7 +77,7 @@ export function ContactSection() {
               }}
               className="text-gray-700 mr-2"
             />
-            <span className="text-lg text-gray-700">+233554572904</span>
+            <span className="text-sm text-gray-700">+233554572904</span>
           </div>
           <div className="flex items-center mr-6 mb-4">
             <FontAwesomeIcon
@@ -89,7 +89,7 @@ export function ContactSection() {
               }}
               className="text-gray-700 mr-2"
             />
-            <span className="text-lg text-gray-700">Accra, Ghana</span>
+            <span className="text-sm text-gray-700">Accra, Ghana</span>
           </div>
           <div className="flex items-center mr-6 mb-4">
             <FontAwesomeIcon

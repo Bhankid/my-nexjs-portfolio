@@ -112,8 +112,52 @@
   color: #666;
 }
 
-  /* Hide MobileNav component in desktop and tablet views */
-@media (min-width: 768px) {
+.mobile-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.mobile-nav button {
+  margin: 0;
+}
+
+.mobile-nav nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-nav nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-nav nav li {
+  margin-bottom: 1rem;
+}
+
+.mobile-nav nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.mobile-nav nav a:hover {
+  color: #666;
+}
+
+/* Add animation to the nav */
+.mobile-nav nav {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hide the nav on desktop */
+@media (min-width: 1024px) {
   .mobile-nav {
     display: none;
   }
